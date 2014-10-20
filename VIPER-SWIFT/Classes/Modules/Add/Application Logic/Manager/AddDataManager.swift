@@ -12,9 +12,9 @@ class AddDataManager : NSObject {
     var dataStore : CoreDataStore?
     
     func addNewEntry(entry: TodoItem) {
-        let newEntry = dataStore?.newTodoItem() as ManagedTodoItem
-        newEntry.name = entry.name
-        newEntry.date = entry.dueDate;
+        let newEntry = dataStore?.newTodoItem()
+        newEntry?.name = entry.name
+        newEntry?.date = entry.dueDate;
         
         dataStore?.save()
     }
