@@ -17,7 +17,7 @@ class ListDataManager : NSObject {
         let beginning = calendar.dateForBeginningOfDay(startDate)
         let end = calendar.dateForEndOfDay(endDate)
         
-        let predicate = NSPredicate(format: "(date >= %@) AND (date <= %@)", beginning, end)
+        let predicate = NSPredicate(format: "(date >= %@) AND (date <= %@)", beginning, end)!
         let sortDescriptors = []
         
         coreDataStore?.fetchEntriesWithPredicate(predicate,

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C0DC840-6448-4D9A-A547-FED2AA5A979A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VIPER-SWIFT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BDAE23EECE98BF6BEBC5917E28E642E9B9996D2B</key>
+		<string>github.com:UsrNameu1/VIPER-SWIFT.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VIPER-SWIFT.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BDAE23EECE98BF6BEBC5917E28E642E9B9996D2B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:UsrNameu1/VIPER-SWIFT.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BDAE23EECE98BF6BEBC5917E28E642E9B9996D2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDAE23EECE98BF6BEBC5917E28E642E9B9996D2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VIPER-SWIFT</string>
+		</dict>
+	</array>
+</dict>
+</plist>

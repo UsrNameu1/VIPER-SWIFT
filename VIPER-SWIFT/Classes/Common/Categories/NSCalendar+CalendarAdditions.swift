@@ -10,7 +10,7 @@ import Foundation
 
 extension NSCalendar {
     class func gregorianCalendar() -> NSCalendar {
-        return NSCalendar(calendarIdentifier: NSGregorianCalendar)
+        return NSCalendar(calendarIdentifier: NSGregorianCalendar)!
     }
     
     func dateWithYear(year: Int, month: Int, day: Int) -> NSDate {

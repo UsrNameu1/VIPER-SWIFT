@@ -84,9 +84,9 @@ class ListViewController : UITableViewController, ListViewInterface {
         
         let cell = tableView.dequeueReusableCellWithIdentifier(ListEntryCellIdentifier, forIndexPath: indexPath) as UITableViewCell
         
-        cell.textLabel?.text = upcomingItem.title;
+        cell.textLabel.text = upcomingItem.title;
         cell.detailTextLabel?.text = upcomingItem.dueDate;
-        cell.imageView?.image = UIImage(named: upcomingSection!.imageName)
+        cell.imageView.image = UIImage(named: upcomingSection!.imageName)
         cell.selectionStyle = UITableViewCellSelectionStyle.None;
 
         return cell
